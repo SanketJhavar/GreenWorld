@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <title>Plastic World</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="
+        background-image: linear-gradient(
+          to right,
+          rgb(234, 239, 247),
+          rgb(101, 101, 245)
+        );
+      "
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="#"
+          style="
+            font-family: 'Caveat', cursive;
+            font-size: 30px;
+            color: rgb(6, 196, 32);
+          "
+          >Green World</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNavDropdown"
+          style="font-weight: bolder; font-size: 20px"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Organizations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Case Studies
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Ragi Spoons</a></li>
+                <li><a class="dropdown-item" href="#">PPE kits</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Coconut Bowls</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Plastic Roads</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Environment-Friendly Hotels</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Plastic-Unfriendly Hotels</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide my-2"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="boot1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="boot2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="boot3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="card mb-3 my-4"
+        style="
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        "
+      >
+        <img
+          src="sea plastic.jpg"
+          class="card-img-top"
+          style="width: 100%; height: 500px"
+          alt="..."
+        />
+        <div class="card-body" style="background-color: rgb(248, 236, 236)">
+          <h2 class="card-title" style="font-family: 'Comfortaa', cursive">
+            Plastic-Waste in Sea
+          </h2>
+          <p
+            class="card-text"
+            style="font-size: 20px; font-family: 'Ubuntu', sans-serif"
+          >
+            Plastic waste entering the seas is increasing each year with much of
+            the plastic entering the seas is in particles smaller than 5
+            millimetres. As of 2016 it was estimated that there was
+            approximately 150 million tonnes of plastic pollution in the world's
+            oceans, estimated to grow to 250 million tonnes in 2025. Another
+            study estimated that in 2012, it was approximately 165 million
+            tonnes.  In 2020 a study found that the Atlantic Ocean contain
+            approximately 10 times more plastic than was previously thought.
+             The largest single type of plastic pollution (~10 %) and majority
+            of large plastic in the oceans is discarded and lost nets from the
+            fishing industry. The Ocean Conservancy reported that China,
+            Indonesia, Philippines, Thailand, and Vietnam dump more plastic in
+            the sea than all other countries combined. One study estimated that
+            there are more than 5 trillion plastic pieces (defined into the four
+            classes of small microplastics, large microplastics, meso- and
+            macroplastics) afloat at sea.[63] In 2020, new measurements found
+            more than 10 times as much plastic in the Atlantic Ocean than
+            previously estimated to be there. The litter that is being delivered
+            into the oceans is toxic to marine life, and humans. The toxins that
+            are components of plastic include diethylhexyl phthalate, which is a
+            toxic carcinogen, as well as lead, cadmium, and mercury. Plankton,
+            fish, and ultimately the human race, through the food chain, ingest
+            these highly toxic carcinogens and chemicals. Consuming the fish
+            that contain these toxins can cause an increase in cancer, immune
+            disorders, and birth defects.[69][failed verification] The majority
+            of the litter near and in the ocean is made up of plastics and is a
+            persistent pervasive source of marine pollution.  In many countries
+            improper management of solid waste means there is little control of
+            plastic entering the water system. According to Dr. Marcus Eriksen
+            of The 5 Gyres Institute, there are 5.25 trillion particles of
+            plastic pollution that weigh as much as 270,000 tonnes (2016). This
+            plastic is taken by the ocean currents and accumulates in large
+            vortexes known as ocean gyres. The majority of the gyres become
+            pollution dumps filled with plastic.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="card mb-3 my-4"
+        style="
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        "
+      >
+        <img
+          src="landpollution.jpg"
+          class="card-img-top"
+          style="width: 100%; height: 500px"
+          alt="..."
+        />
+        <div class="card-body" style="background-color: rgb(236, 243, 248)">
+          <h2 class="card-title" style="font-family: 'Comfortaa', cursive">
+            Plastic-Waste on Land
+          </h2>
+          <p
+            class="card-text"
+            style="font-size: 20px; font-family: 'Ubuntu', sans-serif"
+          >
+            Plastic pollution on land poses a threat to the plants and animals –
+            including humans who are based on the land.  Estimates of the amount
+            of plastic concentration on land are between four and twenty three
+            times that of the ocean. The amount of plastic poised on the land is
+            greater and more concentrated than that in the water. Mismanaged
+            plastic waste ranges from 60 percent in East Asia and Pacific to one
+            percent in North America. The percentage of mismanaged plastic waste
+            reaching the ocean annually and thus becoming plastic marine debris
+            is between one third and one half the total mismanaged waste for
+            that year. Chlorinated plastic can release harmful chemicals into
+            the surrounding soil, which can then seep into groundwater or other
+            surrounding water sources and also the ecosystem of the world. This
+            can cause serious harm to the species that drink the water.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="card mb-3 my-4"
+        style="
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        "
+      >
+        <img
+          src="https://www.alpswaterfilters.com.au/wp-content/uploads/ruined-environment-m.jpg"
+          class="card-img-top"
+          style="width: 100%; height:500px;"
+          alt="..."
+        />
+        <div class="card-body" style="background-color: rgb(255, 254, 203)">
+          <h2 class="card-title" style="font-family: 'Comfortaa', cursive">
+            Plastic-Waste in Tap-Water
+          </h2>
+          <p
+            class="card-text"
+            style="font-size: 20px; font-family: 'Ubuntu', sans-serif"
+          >
+           
+          A 2017 study found that 83% of tap water samples taken around the world contained plastic pollutants.
+           This was the first study to focus on global drinking water pollution with plastics,and showed that with a contamination rate of 94%, tap water in the United States was the most polluted, followed by Lebanon and India. European countries such as the United Kingdom, Germany and France had the lowest contamination rate, though still as high as 72%.
+           This means that people may be ingesting between 3,000 and 4,000 microparticles of plastic from tap water per year.[58] The analysis found particles of more than 2.5 microns in size, which is 2500 times bigger than a nanometer. It is currently unclear if this contamination is affecting human health, but if the water is also found to contain nano-particle pollutants, there could be adverse impacts on human well-being, according to scientists associated with the study.
+          
+          However, plastic tap water pollution remains under-studied, as are the links of how pollution transfers between humans, air, water, and soil.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="card mb-3 my-4"
+        style="
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        "
+      >
+        <img
+          src="https://expatlifeinthailand.com//assets/media/2018/07/plastic-ft.jpg"
+          class="card-img-top"
+          style="width: 100%; height:500px;"
+          alt="..."
+        />
+        <div class="card-body" style="background-color: rgb(199, 247, 189)">
+          <h2 class="card-title" style="font-family: 'Comfortaa', cursive">
+           Effect Of Plastic on Human-beings 
+          </h2>
+          <p
+            class="card-text"
+            style="font-size: 20px; font-family: 'Ubuntu', sans-serif"
+          >
+          Once plastic reaches the environment in the form of macro- or microplastics, it contaminates and accumulates in food chains through agricultural soils, terrestrial and aquatic food chains, and the water supply. This environmental plastic can easily leach toxic additives or concentrate toxins already in the environment, making them bioavailable again for direct or indirect human exposure. As plastic particles degrade, new surface areas are exposed, allowing continued leaching of additives from the core to the surface of the particle in the environment and the human body. Microplastics entering the human body via direct exposures through ingestion or inhalation can lead to an array of health impacts, including inflammation, genotoxicity, oxidative stress, apoptosis, and necrosis, which are linked to an array of negative health outcomes including cancer, cardiovascular diseases, inflammatory bowel disease, diabetes, rheumatoid arthritis, chronic inflammation, auto-immune conditions, neuro-degenerative diseases, and stroke.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .h1{
+    font-family: 'Comfortaa', cursive;
+  }
+  .h3{
+    font-family: 'Yomogi',cursive;
+    font-size: 50px;
+  }
+  .content {
+    font-size: 26px;
+    font-family: "Ubuntu", sans-serif;
+    color: #07051a;
+    padding: 8px 12px;
+    position: absolute;
+    top: 149px;
+    width: 100%;
+    text-align: center;
+    /* background-color: cadetblue; */
+  }
+
+  .container1 {
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    max-height: 100%;
+    margin: 0 auto;
+  }
+
+  .image {
+    width: 100%;
+    height: 1018px;
+    opacity: 0.4;
+    
+  }
+
+  .image2 {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .image3 {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* position: absolute;  */
+  }
+  .navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    background-image: url("nature image.jpg");
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* position: sticky;
+    top: 0; */
+  }
+  .navbar a {
+    float: left;
+    margin: 10px;
+    color: rgb(236, 217, 217);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  /* Links inside the navbar */
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 23px;
+    border: none;
+    outline: none;
+    color: rgb(241, 229, 229);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 12px; /* Important for vertical align on mobile phones */
+  }
+
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    color: rgb(1, 0, 12);
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color:rgb(212, 209, 204);
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+   
+  img, svg {
+    vertical-align: middle;
+    margin: auto;
+  }
+  .w-100 {
+    width: 700px;}
+ 
+ 
+  .land-container{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 213, 221);
+    background-image: linear-gradient(to right,#3597de,lightgreen);
+    
+  }
+  .land-content{
+    font-size: 26px;
+    font-family: "Ubuntu", sans-serif;
+    color: #07051a;
+    padding: 8px 12px;
+    /* position: absolute; */
+    background-color: rgb(208, 213, 221);
+    background-image: linear-gradient(to right,#3597de,lightgreen);
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+  }
+  .land-boy{
+    border-radius: 50%;
+    height: 250px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  .landimage1{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    height: 200px;
+    width: 215px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .landimage2{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    height: 200px;
+    width: 215px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .tapwatercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(191, 240, 227);
+   background-image: linear-gradient(to right,#e56ee5,lightblue);
+                    }
+.tapwatercontent{
+  font-size: 26px;
+  font-family: "Ubuntu", sans-serif;
+  color: #07051a;
+  padding: 8px 12px;
+  /* position: absolute; */
+ background-color: rgb(191, 240, 227);
+ background-image: linear-gradient(to right,#e56ee5,lightblue);
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+.tapimage1{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    height: 262px;
+    width: 303px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .tapimage2{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    height: 200px;
+    width: 215px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tapimage{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    height: 250px;
+    width: 30%;
+    
+}
+
